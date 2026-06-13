@@ -8,5 +8,4 @@ sort_by: title
 classes: wide
 ---
 
-Finished study guides, series overviews, and other Bible resources -
-ready to read or share.
+"Polished" resources, more completed thoughts or studies that are formatted in a way they can be used as a series or reference.

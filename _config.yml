@@ -80,3 +80,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+  - examplept1.md
+  - examplept2.md
+  - examplept3.md
+  - sampleexample.md
