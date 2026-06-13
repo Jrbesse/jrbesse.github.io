@@ -13,7 +13,10 @@ repository: "Jrbesse/jrbesse.github.io"
 
 # Theme (loaded directly from GitHub - no local copy needed)
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "default" # default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+# Available skins - swap the value below to change the site's look:
+#   default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "default"
 
 # Plugins (all on GitHub Pages' supported plugin list)
 plugins:
