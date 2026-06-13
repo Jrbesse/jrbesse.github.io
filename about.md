@@ -5,10 +5,6 @@ permalink: /about/
 author_profile: true
 ---
 
-This site is a working journal of Bible lessons, sermon notes, and studies,
-along with a growing library of [finished resources](/resources/) -
-study guides, outlines, and other materials you're welcome to use.
+This site exists as a sort of cross between a journal and an accountability partner. To try to convince me to be more consistent with my study and be intentional about how I encounter and respond to scripture.
 
-Posts on the home page are often rough - thoughts worked out in real time.
-The [Resources](/resources/) section is where things land once they're in a
-more finished, shareable form.
+The [resources](/resources/) linked here are a little more 'polished' or finished, representing complete ideas or thoughts rather than the more stream of consciousness style within the blog posts. Anything posted here is free to be used non-commercially.

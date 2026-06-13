@@ -1,11 +1,10 @@
 # Site settings
 # Update these to taste - title/description show up in the header, browser tab, and RSS feed.
-title: "Bible Notes & Resources"
-subtitle: "Lessons, sermon notes, and studies - in progress and finished"
-name: "J. Besse"
+title: "Garden Variety"
+subtitle: "The crossroads between personal study and a desire for better archival than a bunch of notebooks."
+name: "Jonathan"
 description: >-
-  A working journal of Bible lessons and sermon notes, plus a library of
-  finished study guides and resources.
+  The stream of consciousness thoughts and personal study of the Bible along with finished resources that represent more complete thoughts.
 url: "https://jbesse.me"
 baseurl: ""
 locale: "en-US"
@@ -16,7 +15,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 # Available skins - swap the value below to change the site's look:
 #   default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "mint"
 
 # Plugins (all on GitHub Pages' supported plugin list)
 plugins:
@@ -37,8 +36,8 @@ paginate_path: /page:num/
 
 # Author / sidebar info shown on posts
 author:
-  name: "J. Besse"
-  bio: "Working out Bible lessons and sharing study resources."
+  name: "Jonathan"
+  bio: "Tomorrow's questions, today!"
   # avatar: "/assets/images/avatar.jpg"
   # links:
   #   - label: "Email"
