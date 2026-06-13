@@ -1,0 +1,80 @@
+# Site settings
+# Update these to taste - title/description show up in the header, browser tab, and RSS feed.
+title: "Bible Notes & Resources"
+subtitle: "Lessons, sermon notes, and studies - in progress and finished"
+name: "J. Besse"
+description: >-
+  A working journal of Bible lessons and sermon notes, plus a library of
+  finished study guides and resources.
+url: "https://jbesse.me"
+baseurl: ""
+locale: "en-US"
+repository: "Jrbesse/jrbesse.github.io"
+
+# Theme (loaded directly from GitHub - no local copy needed)
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default" # default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+# Plugins (all on GitHub Pages' supported plugin list)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+search: true
+
+# Pagination for the home page post feed
+paginate: 5
+paginate_path: /page:num/
+
+# Author / sidebar info shown on posts
+author:
+  name: "J. Besse"
+  bio: "Working out Bible lessons and sharing study resources."
+  # avatar: "/assets/images/avatar.jpg"
+  # links:
+  #   - label: "Email"
+  #     icon: "fas fa-fw fa-envelope-square"
+  #     url: "mailto:you@example.com"
+
+footer:
+  links: []
+
+# Custom collection for "finished" resources, separate from the blog feed
+collections:
+  resources:
+    output: true
+    permalink: /resources/:path/
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: single
+      author_profile: false
+      toc: true
+      toc_sticky: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
